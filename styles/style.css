@@ -97,3 +97,21 @@ nav{
     Width:440px;
     Height:414px;
  }
+
+
+ .section-title{
+     text-align: center;
+     font-size: 28px;
+     line-height: 70px;
+     color: #3A3A3A;
+     margin: 50px 0;
+ }
+ 
+ /*----------------------------------
+             Product-Item 
+-------------------------------------*/
+.product-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
