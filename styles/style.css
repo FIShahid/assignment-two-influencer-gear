@@ -109,6 +109,12 @@ nav{
      justify-content: center;
      align-items: flex-end;
  }
+ .banner .banner-right img{
+   
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
+}
  .banner-right img{
     Width:440px;
     Height:414px;
@@ -127,6 +133,26 @@ nav{
      color: #3A3A3A;
      margin: 50px 0;
  }
+
+ /* ------------------------------------------
+                     Optional 
+----------------------------------------------*/
+
+#hr{
+    margin-top: 50px;
+    border:1px solid rgba(0,0,0,0.15);
+}
+.company-logo{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.company-logo img{
+    width: 65px;
+    height: 35px;
+}
  
  /*----------------------------------
              Product-Item 
@@ -401,6 +427,11 @@ footer p{
         grid-template-columns: repeat(1,1fr);
         
     }
+
+    .product-card{
+        justify-content: center;
+        align-items: center;
+    }
     .product-image{
         text-align: center;
     }
@@ -409,7 +440,14 @@ footer p{
         align-items: center; 
     }
     .banner-left h1{
-        font-size: 28px;
+        font-size: 26px;
     }
-   
+  .company-logo{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+  }
+  .banner .banner-right img{
+      max-width: 300px;
+  }
 }
