@@ -158,12 +158,21 @@ nav{
              Product-Item 
 -------------------------------------*/
 .product-card{
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
     margin-bottom: 0 20px;
     padding: 20px;
     
+}
+.product-image{
+    margin-top: 12px;
+}
+.product-name{
+    width: 330px;
+    height: 475px;
+    margin-top: 20px;
 }
 .product-name .product-info{
     margin-top: 15px;
