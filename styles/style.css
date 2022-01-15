@@ -262,7 +262,9 @@ nav{
     margin-left: 10px;
 }
 
-/* Contact-style */
+/* -----------------------------------
+            Contact-style 
+--------------------------------------*/
 
 .second-section-title{
     text-align: center;
@@ -381,7 +383,22 @@ footer p{
 }
 
 
+@media (max-width:1024px){
+    .product-card{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        
+    }
+      .banner-left h1{
+        font-size: 35px;
 
+    }
+    .product-name{
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media (max-width:950px){
     .product-card{
         grid-template-columns: repeat(2,1fr);
@@ -432,6 +449,7 @@ footer p{
     .banner-right img{
         max-width: 200px;
     }
+  
     .product-card, .contact{
         grid-template-columns: repeat(1,1fr);
         
