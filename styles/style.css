@@ -137,11 +137,19 @@ nav{
     grid-column-gap: 24px;
     margin-bottom: 0 20px;
     padding: 20px;
+    
+}
+.product-name .product-info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.product-info .text{
+    margin-top: 10px;
 }
 .product-info{
     display: flex;
     flex-direction: column;
-}
+    }
 .product-name{
     display: flex;
     flex-direction: column;
@@ -193,6 +201,10 @@ nav{
 }
 .fa-star.empty{
     color:#AEAEAE;
+}
+.span{
+    font-size: 14px;
+    color: #787885;
 }
 .secondary-button{
     text-decoration: none;
